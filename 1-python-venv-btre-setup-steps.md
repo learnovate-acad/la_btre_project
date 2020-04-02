@@ -45,8 +45,15 @@ Create .gitignore as per website file info at rrot folder
 add venv/ to .gitignore file
 
 # Step 9
+git add .
+git commit -m "Initial Commit"
 
+git config --global user.name learnovate-acad
+git config --global user.email learnovate.academy2019@gmail.com
 
+# Step 10 Run Django Server
+
+python manage.py runserver
 
 
 
